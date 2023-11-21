@@ -177,7 +177,7 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 26px;
   }
 
@@ -190,4 +190,7 @@ footer .social-links a:hover {
     padding: 0;
     text-align: center;
   }
+}
+.Sharon-image img {
+  border-radius: 10px;
 }
