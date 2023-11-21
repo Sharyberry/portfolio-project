@@ -138,6 +138,8 @@ footer {
 }
 footer .contact-box {
   background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 footer .contact-box p {
   margin: 0;
@@ -159,7 +161,7 @@ footer .social-links a {
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
-  transition: all 150ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
@@ -174,6 +176,9 @@ footer .social-links a:hover {
 
   h2 {
     font-size: 44px;
+  }
+  h4 {
+    font-size: 26px;
   }
 
   .hero {
