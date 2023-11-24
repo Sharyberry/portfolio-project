@@ -28,8 +28,8 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4 {
-  font-size: 26px;
+h3 {
+  font-size: 48px;
 }
 
 p {
@@ -59,7 +59,7 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 60px 30px;
 }
 
 .content h1 {
@@ -88,9 +88,13 @@ p {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
+  text-decoration: none;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding:hover {
+  color: white;
 }
 
 .btn-branding-outline {
@@ -98,8 +102,13 @@ p {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
+  text-decoration: none;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
 }
 
 .project-desciption {
@@ -119,16 +128,14 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 nav a {
   text-decoration: none;
   color: #272142;
   transition: all 100ms ease-in-out;
 }
-nav a:hover {
-  color: var(--branding-color);
-}
+nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
@@ -171,7 +178,7 @@ footer .social-links a:hover {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 56px;
+    line-height: 1.5;
   }
 
   h2 {
@@ -181,7 +188,7 @@ footer .social-links a:hover {
     font-size: 26px;
   }
 
-  .content-container {
+  .content {
     text-align: center;
     padding: 0;
   }
